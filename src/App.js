@@ -17,6 +17,9 @@ function App() {
       <section>
         
       </section>
+      <footer>
+  
+      </footer>
 
     {/* &&&&&&&&&&&&&&&&&&     end code here  &&&&&&&&&&&&&&&&&& */}
 
