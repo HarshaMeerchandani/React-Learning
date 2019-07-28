@@ -4,10 +4,10 @@
 
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+  height: 10vmin;
   pointer-events: none;
 }
-
+/* 
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -17,12 +17,63 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+} */
+ *{
+  margin: 0;
+  padding: 0;
 }
-
+.container {
+  margin: 0 auto;
+  width: 1200px;
+  text-align: center;
+  max-width: 100%;
+}
 .App-link {
   color: #61dafb;
 }
-
+header.App-header {
+  background-color: black;
+  color: #fff;
+  padding: 9px 0 25px;
+  line-height: 32px;
+}
+footer {
+  background-color: #000;
+  color: #fff;
+  padding: 26px 0;
+}
+.contact-details p span {
+  display: inline-block;
+  width: 15%;
+  padding: 3px 20px;
+  text-align: left;
+  font-size: 19px;
+}
+.container.secmid .secleft {
+  width: 49%;
+  text-align: left;
+}
+.container.secmid .secright {
+  width: 49%;
+  text-align: left;
+}
+.secmid .secleft  ,.secmid .secright {
+  display: inline-block;
+  width: 39%;
+  text-align: left;
+}
+.secmid .secleft li, .secmid .secright li {
+  line-height: 26px;
+  list-style: none;
+  font-size: 20px;
+  padding: 6px 0;
+}
+.secmid .secleft li {
+  font-weight: 600;
+}
+.secmid {
+  padding: 85px 0;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
