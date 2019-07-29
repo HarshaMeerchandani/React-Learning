@@ -32,7 +32,7 @@ function App() {
         <li>Unilever</li>
         <li>3 Years</li>
         <li>React Js , React Native , Node Js</li>
-        <li>s</li>
+        <li></li>
       </ul>
        </div>
        </div>
