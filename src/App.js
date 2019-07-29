@@ -30,9 +30,9 @@ function App() {
        <div className="secright">
        <ul>
         <li>Unilever</li>
-        <li>Total experience</li>
-        <li>Keyskills</li>
-        <li>Details</li>
+        <li>3 Years</li>
+        <li>React Js , React Native , Node Js</li>
+        <li>s</li>
       </ul>
        </div>
        </div>
